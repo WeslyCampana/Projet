@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <title>Cinema World | Articles</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <script src="js/jquery-1.4.2.min.js" type="text/javascript"></script>
-    <script src="js/cufon-yui.js" type="text/javascript"></script>
-    <script src="js/cufon-replace.js" type="text/javascript"></script>
-    <script src="js/Gill_Sans_400.font.js" type="text/javascript"></script>
-    <script src="js/script.js" type="text/javascript"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-1.4.2.min.js"></script>
+    <script src="js/cufon-yui.js"></script>
+    <script src="js/cufon-replace.js"></script>
+    <script src="js/Gill_Sans_400.font.js"></script>
+    <script src="js/script.js"></script>
     <!--[if lt IE 7]>
 <script type="text/javascript" src="js/ie_png.js"></script>
 <script type="text/javascript">ie_png.fix('.png, .link1 span, .link1');</script>
@@ -26,9 +26,9 @@
                     <div class="row-1">
                         <div class="fleft"><a href="#">Festival <span>Cinema</span></a></div>
                         <ul>
-                            <li><a href="index.html"><img src="images/icon1.gif" alt="" /></a></li>
-                            <li><a href="contact.html"><img src="images/icon2.gif" alt="" /></a></li>
-                            <li><a href="programme.html"><img src="images/icon3.gif" alt="" /></a></li>
+                            <li><a href="index.html"><img src="images/icon1.gif" alt=""></a></li>
+                            <li><a href="contact.html"><img src="images/icon2.gif" alt=""></a></li>
+                            <li><a href="programme.html"><img src="images/icon3.gif" alt=""></a></li>
                         </ul>
                     </div>
                     <div class="row-2">
@@ -60,45 +60,47 @@
                     <div class="content">
                         <h3>Le <span>formulaire</span></h3>
                         <form action="/action_page.php">
-                            <label for="fname">Nom:</label>
+                            <label for="Nom">Nom:</label> <!-- Cambié 'fname' por 'Nom' -->
                             <input type="text" id="Nom" name="Nom" value=""><br>
-                            <label for="lname">Prénom:</label>
+                        
+                            <label for="Prénom">Prénom:</label> <!-- Cambié 'lname' por 'Prénom' -->
                             <input type="text" id="Prénom" name="Prénom" value=""><br>
-                            <label for="lname">E-mail:</label>
+                        
+                            <label for="E-mail">E-mail:</label> <!-- Cambié 'lname' por 'E-mail' -->
                             <input type="text" id="E-mail" name="E-mail" value=""><br>
-                            <form action="/action_page.php">
-                                <label for="cars">Types de tickets achetés:</label>
-                                <select id="cars" name="cars">
-                                  <option value="volvo">Veuillez choisir un type</option>
-                                  <option value="saab">Ticket unique</option>
-                                  <option value="fiat">Pass festival(accés à tous les films)</option>
-                                </select>
-                              </form>
-                            Films auxquels vous avez assistés<br>
-                            <form action="/action_page.php">
-                                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                                <label for="vehicle1"> Shrek 5</label><br>
-                                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-                                <label for="vehicle2"> Spiderman 4</label><br>
-                            </form>
+                        
+                            <label for="cars">Types de tickets achetés:</label>
+                            <select id="cars" name="cars">
+                                <option value="volvo">Veuillez choisir un type</option>
+                                <option value="saab">Ticket unique</option>
+                                <option value="fiat">Pass festival (accès à tous les films)</option>
+                            </select><br>
+                        
+                            Films auxquels vous avez assisté:<br>
+                            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                            <label for="vehicle1"> Shrek 5</label><br>
+                            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                            <label for="vehicle2"> Spiderman 4</label><br>
+                        
                             Quel est votre sentiment général par rapport à cette édition du festival?<br>
-                            <form>
-                                <input type="radio" id="1-Pasdutoutsatisfait" name="fav_language" value="1 - Pas du tout satisfait">
-                                <label for="html">1 - Pas du tout satisfait</label><br>
-                                <input type="radio" id="2-Passatisfait" name="fav_language" value="2 - Pas satisfait">
-                                <label for="css">2 - Pas satisfait</label><br>
-                                <input type="radio" id="3-Satisfait" name="fav_language" value="3 - Satisfait">
-                                <label for="javascript">3 - Satisfait</label><br>
-                                <input type="radio" id="4-Plusquesatisfait" name="fav_language" value="4 - Plus que satisfait">
-                                <label for="javascript">4 - Plus que satisfait</label><br>
-                                <input type="radio" id="5-Trèssatisfait" name="fav_language" value="5 - Très satisfait">
-                                <label for="javascript">5 - Très satisfait</label>
-                                </form>
-                                Avez-vous des recommandations pour notre prochaine édition?<br>
-                                <form action="/action_page.php">
-                                    <textarea name="message" rows="5" cols="70"></textarea>
-                                    <br>
-                                  </form>
+                            <input type="radio" id="1-Pasdutoutsatisfait" name="fav_language" value="1 - Pas du tout satisfait">
+                            <label for="1-Pasdutoutsatisfait">1 - Pas du tout satisfait</label><br>
+                        
+                            <input type="radio" id="2-Passatisfait" name="fav_language" value="2 - Pas satisfait">
+                            <label for="2-Passatisfait">2 - Pas satisfait</label><br>
+                        
+                            <input type="radio" id="3-Satisfait" name="fav_language" value="3 - Satisfait">
+                            <label for="3-Satisfait">3 - Satisfait</label><br>
+                        
+                            <input type="radio" id="4-Plusquesatisfait" name="fav_language" value="4 - Plus que satisfait">
+                            <label for="4-Plusquesatisfait">4 - Plus que satisfait</label><br>
+                        
+                            <input type="radio" id="5-Trèssatisfait" name="fav_language" value="5 - Très satisfait">
+                            <label for="5-Trèssatisfait">5 - Très satisfait</label><br>
+                        
+                            Avez-vous des recommandations pour notre prochaine édition?<br>
+                            <textarea name="message" rows="5" cols="70"></textarea><br>
+                        
                             <input type="submit" value="Envoyer">
                         </form>
                     </div>
@@ -107,10 +109,10 @@
                     <h3 class="réseauxSociaux">Nos <span>réseaux sociaux</span></h3>
                     <div class="address">
                       <div class="social-icons">
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i> <img src="images/facebooki.png" alt="facebook" width="50px"><span>Facebook</span></a>
-                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i><img src="images/twitteri.png" alt="twitter" width="50px"><span>Twitter</span></a>
-                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i><img src="images/instagrami.png" alt="instagram" width="50px"><span>Instagram</span></a>
-                        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i><img src="images/youtubei.png" alt="youtube" width="50px"><span>YouTube</span></a>                 
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i> <img src="images/facebooki.png" alt="facebook" width="50"><span>Facebook</span></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i><img src="images/twitteri.png" alt="twitter" width="50"><span>Twitter</span></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i><img src="images/instagrami.png" alt="instagram" width="50"><span>Instagram</span></a>
+                        <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i><img src="images/youtubei.png" alt="youtube" width="50"><span>YouTube</span></a>                 
                       </div>
                     </div>
                     </div>
@@ -129,7 +131,7 @@
             </div>
         </div>
     </div>
-    <script type="text/javascript"> Cufon.now(); </script>
+    <script> Cufon.now(); </script>
     <!-- END PAGE SOURCE -->
 </body>
 
